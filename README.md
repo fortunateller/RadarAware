@@ -54,7 +54,6 @@ RadarAware 是一个融合**毫米波雷达生命体征检测**、**计算机视
 
 ## 快速开始
 
-`Bash
 # 克隆项目
 git clone <repo_url>
 cd RadarAware
@@ -70,7 +69,6 @@ chmod +x main.sh
 
 # 或直接以命令行模式启动全部模块
 ./main.sh --integrated
-`
 
 ## main.sh 启动脚本
 
@@ -78,9 +76,7 @@ main.sh 是系统的统一启动脚本，支持**交互式菜单**和**命令行
 
 ### 交互式菜单
 
-`Bash
 ./main.sh
-`
 
 菜单选项：
 
@@ -97,7 +93,6 @@ main.sh 是系统的统一启动脚本，支持**交互式菜单**和**命令行
 
 ### 命令行模式
 
-`Bash
 ./main.sh capture      # 雷达数据采集
 ./main.sh processor    # 雷达数据处理（心率/呼吸）
 ./main.sh vision       # 视觉疲劳检测
@@ -109,7 +104,6 @@ main.sh 是系统的统一启动脚本，支持**交互式菜单**和**命令行
 
 ### 启动流程
 
-`
 main.sh
   ├── 环境检查（conda、模块文件完整性）
   ├── conda 环境激活（默认：radar）
@@ -120,7 +114,6 @@ main.sh
   │   └── Driver_Monitor:   node src/server.js
   ├── chromium-browser 打开前端页面 localhost:3001
   └── Ctrl+C 安全停止所有进程（SIGINT → SIGTERM）
-`
 
 ### 日志与输出
 
