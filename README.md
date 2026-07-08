@@ -32,9 +32,9 @@ RadarAware 是一个融合**毫米波雷达生命体征检测**、**计算机视
 
 | 模块             | 路径                                    | 功能                                                                      |
 | ---------------- | --------------------------------------- | ------------------------------------------------------------------------- |
-| Driver_Monitor   | [Driver_Monitor/](./Driver_Monitor)     | 车载前端界面（1024×600 触控屏优化），提供登录、聊天、控制台、个人资料管理 ||驾驶员监测| [驾驶员监测/](./驾驶员监测)     |车载前端界面（1024×600 触控屏优化），提供登录、聊天、控制台、个人资料管理|
+| Driver_Monitor   | [Driver_Monitor/](./Driver_Monitor)     | 车载前端界面（1024×600 触控屏优化），提供登录、聊天、控制台、个人资料管理 |
 | Radar_Real       | [Radar_Real/](./Radar_Real)             | TI IWR6843AOP 毫米波雷达信号处理，实时提取心率与呼吸频率                  |
-| Version_Detected | [Version_Detected/](./Version_Detected) | RK3588 NPU 加速的视觉疲劳检测（人脸检测 + 眼部状态 + 哈欠识别）           ||检测到的版本| [检测到的版本/](./检测到的版本) |RK3588 NPU 加速的视觉疲劳检测（人脸检测 + 眼部状态 + 哈欠识别）|
+| Version_Detected | [Version_Detected/](./Version_Detected) | RK3588 NPU 加速的视觉疲劳检测（人脸检测 + 眼部状态 + 哈欠识别）           |
 | Agent_Workflow   | [Agent_Workflow/](./Agent_Workflow)     | 语音交互代理，VAD 检测人声，调用 Coze 工作流进行疲劳提醒与驾驶建议        |
 
 ## 硬件平台
