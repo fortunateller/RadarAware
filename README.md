@@ -69,13 +69,13 @@ main.sh 是系统的统一启动脚本，支持**交互式菜单**和**命令行
 
 ### 命令行模式
 
-./main.sh capture      # 雷达数据采集
-./main.sh processor    # 雷达数据处理（心率/呼吸）
-./main.sh vision       # 视觉疲劳检测
-./main.sh agent        # 语音代理
-./main.sh integrated   # 集成模式（全部模块）
-./main.sh status       # 查看运行状态
-./main.sh stop         # 停止所有模块
+- ./main.sh capture      # 雷达数据采集
+- ./main.sh processor    # 雷达数据处理（心率/呼吸）
+- ./main.sh vision       # 视觉疲劳检测
+- ./main.sh agent        # 语音代理
+- ./main.sh integrated   # 集成模式（全部模块）
+- ./main.sh status       # 查看运行状态
+- ./main.sh stop         # 停止所有模块
 
 ### 日志与输出
 
